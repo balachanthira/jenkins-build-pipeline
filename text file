@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Open Web Page') {
+            steps {
+                sh 'curl https://example.com'
+            }
+        }
+    }
+}
