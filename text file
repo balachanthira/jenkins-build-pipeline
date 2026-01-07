@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Open Web Page') {
             steps {
-                sh 'curl https://example.com'
+                sh 'url https://www.google.com'
             }
         }
     }
